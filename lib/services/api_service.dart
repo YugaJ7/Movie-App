@@ -3,8 +3,8 @@ import 'network_client.dart';
 
 class ApiService {
   static const String baseUrl = 'https://api.themoviedb.org/3';
-  static const String apiKey = 'YOUR_API_KEY';
-  static const String accessToken = 'YOUR_ACCESS_TOKEN';
+  static const String apiKey = 'YOUR_API_KEY'; //Replace with your TMDb API key
+  static const String accessToken = 'YOUR_ACCESS_TOKEN'; //Replace with your TMDb access token
 
   late final NetworkClient _client;
 
